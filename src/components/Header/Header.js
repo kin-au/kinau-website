@@ -1,26 +1,18 @@
 import React from "react";
 import "./Header.css";
+// import About from "../About/About";
 import Navbar from "../Navbar/Navbar";
+import { Link, NavLink } from "react-router-dom";
 
-function Header() {
+const Header = () => {
   return (
-    <header className="App-header">
-      <h1>Kin's website, coming soon...</h1>
-      <section aria-label="contact information">
-        <p>
-          Say&nbsp;
-          <a
-            className="App-link"
-            aria-label="contact email link"
-            href="mailto:hello@kinau.co.uk"
-          >
-            hello@kinau.co.uk
-          </a>
-        </p>
-      </section>
+    <header>
+      <h1>
+        <Link to="/">Kin Au</Link>
+      </h1>
       <Navbar />
     </header>
   );
-}
+};
 
 export default Header;

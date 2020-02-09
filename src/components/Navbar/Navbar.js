@@ -1,12 +1,12 @@
 import React from "react";
 import "./Navbar.css";
-import { Route, Switch, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <>
       <h1>Here is the navbar</h1>
-      <NavLink to="/About" activeClassName="selected">
+      <NavLink to="/" activeClassName="selected">
         About Me
       </NavLink>
       <NavLink to="/Projects" activeClassName="selected">
@@ -17,6 +17,6 @@ function Navbar() {
       </NavLink>
     </>
   );
-}
+};
 
 export default Navbar;
