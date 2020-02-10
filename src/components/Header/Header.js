@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
-import MobileMenu from "../MobileMenu/MobileMenu";
-import { Link, NavLink } from "react-router-dom";
+import MobileNav from "../MobileNav/MobileNav";
+import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
       <h1>
         <Link to="/">Kin Au</Link>
       </h1>
-      {mobileScreen ? <MobileMenu /> : <Navbar />}
+      {mobileScreen ? <MobileNav /> : <Navbar />}
     </header>
   );
 };

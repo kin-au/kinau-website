@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import "./MobileMenu.css";
+import "./MobileNav.css";
 import { NavLink } from "react-router-dom";
 
-const MobileMenu = () => {
+const MobileNav = () => {
   return (
     <>
-      <h1>Here is the MobileMenu</h1>
+      <h1>Here is the MobileNav</h1>
       <NavLink to="/About" className="navlink" activeClassName="selected">
         About Me
       </NavLink>
@@ -25,4 +25,4 @@ const MobileMenu = () => {
   );
 };
 
-export default MobileMenu;
+export default MobileNav;
