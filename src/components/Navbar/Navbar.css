@@ -1,0 +1,6 @@
+/* Example css for highlighting active and hovering nav option */
+
+.navlink.selected,
+.navlink:hover {
+  border-bottom: 10px solid #f14b31;
+}

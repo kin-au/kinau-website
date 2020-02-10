@@ -1,16 +1,19 @@
 import React from "react";
 import "./Header.css";
-// import About from "../About/About";
 import Navbar from "../Navbar/Navbar";
+import MobileMenu from "../MobileMenu/MobileMenu";
 import { Link, NavLink } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
+  const mobileScreen = useMediaQuery({ query: "(max-device-width: 1224px)" });
+
   return (
     <header>
       <h1>
         <Link to="/">Kin Au</Link>
       </h1>
-      <Navbar />
+      {mobileScreen ? <MobileMenu /> : <Navbar />}
     </header>
   );
 };

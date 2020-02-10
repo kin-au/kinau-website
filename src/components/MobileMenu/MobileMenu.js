@@ -1,11 +1,11 @@
-import React from "react";
-import "./Navbar.css";
+import React, { useState, useEffect } from "react";
+import "./MobileMenu.css";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const MobileMenu = () => {
   return (
     <>
-      <h1>Here is the navbar</h1>
+      <h1>Here is the MobileMenu</h1>
       <NavLink to="/About" className="navlink" activeClassName="selected">
         About Me
       </NavLink>
@@ -25,4 +25,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default MobileMenu;
