@@ -11,8 +11,17 @@ const Header = () => {
   return (
     <header>
       <h1>
-        <Link to="/">Kin Au</Link>
+        <Link to="/">KIN AU</Link>
       </h1>
+      <h3>FULL STACK DEVELOPER</h3>
+      {mobileScreen ? null : (
+        <ul className="contact-list">
+          <li>hello@kinau.co.uk</li>
+          <li>+44 (0)7500 847 227</li>
+          <li>github.com/kin-au</li>
+          <li>linkedin.com/in/kin-au</li>
+        </ul>
+      )}
       {mobileScreen ? <MobileNav /> : <Navbar />}
     </header>
   );

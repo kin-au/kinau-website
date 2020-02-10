@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-// import Header from "../Header/Header";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import CV from "../CV/CV";
@@ -12,7 +11,7 @@ const App = () => {
   return (
     <Switch>
       <Route path="/" render={() => <About />} exact />
-      <Route path="/About" render={() => <About />} exact />
+      <Route path="/About" render={() => <About />} />
       <Route path="/Projects" render={() => <Projects />} />
       <Route path="/CV" render={() => <CV />} />
       <Route path="/Contact" render={() => <Contact />} />
