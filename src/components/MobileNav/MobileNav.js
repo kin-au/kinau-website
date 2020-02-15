@@ -1,34 +1,55 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import * as SC from "./MobileNav.style";
 
 const MobileNav = () => {
+  const [showNav, setShowNav] = useState(false);
+  const toggleNav = () => {
+    setShowNav(!showNav);
+  };
+
   return (
-    <SC.Nav>
-      <a href="#">&#9776;</a>
-      <ul>
-        <li>
-          <NavLink to="/About" activeClassName="selected">
-            About Me
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/Projects" activeClassName="selected">
-            Projects
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/CV" activeClassName="selected">
-            CV
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/Contact" activeClassName="selected">
-            Contact
-          </NavLink>
-        </li>
-      </ul>
-    </SC.Nav>
+    <>
+      {showNav && (
+        <SC.Nav>
+          <ul>
+            <li>
+              <NavLink
+                to="/About"
+                onClick={toggleNav}
+                activeClassName="selected"
+              >
+                About Me
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/Projects"
+                onClick={toggleNav}
+                activeClassName="selected"
+              >
+                Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/CV" onClick={toggleNav} activeClassName="selected">
+                CV
+              </NavLink>
+            </li>
+            <li className="bottomLink">
+              <NavLink
+                to="/Contact"
+                onClick={toggleNav}
+                activeClassName="selected"
+              >
+                Contact
+              </NavLink>
+            </li>
+          </ul>
+        </SC.Nav>
+      )}
+      <SC.NavButton onClick={toggleNav}>&#9776;</SC.NavButton>
+    </>
   );
 };
 
