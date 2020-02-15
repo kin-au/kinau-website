@@ -44,7 +44,7 @@ const Nav = styled.nav`
   }
 
   .bottomLink {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
   }
 `;
 
@@ -55,9 +55,9 @@ const NavButton = styled.button`
   position: fixed;
   bottom: 0;
   right: 0;
-  font-size: 1.5rem;
-  height: 2.5rem;
-  width: 2.5rem;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
 `;
 
 export { Nav, NavButton };

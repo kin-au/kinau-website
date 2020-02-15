@@ -20,14 +20,14 @@ const Header = styled.header`
   }
 
   .mobileView {
-    @media (min-width: 321px) {
+    @media (min-width: 4500px) {
       display: none;
     }
   }
 
   .desktopView {
     display: none;
-    @media (min-width: 321px) {
+    @media (min-width: 450px) {
       display: block;
     }
   }
