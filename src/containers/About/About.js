@@ -1,9 +1,9 @@
 import React from "react";
-import "./About.css";
+import * as SC from "./About.style";
 
 const About = () => {
   return (
-    <>
+    <SC.Section>
       <h2>Who am I?</h2>
       <p>
         Full stack web developer. Strong team player who is also confident
@@ -12,7 +12,7 @@ const About = () => {
         role in a diverse, supportive environment that encourages growth and
         continued learning.
       </p>
-    </>
+    </SC.Section>
   );
 };
 

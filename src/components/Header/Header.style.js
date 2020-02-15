@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 const Header = styled.header`
+  margin: 1rem;
+  text-align: center;
   text-transform: uppercase;
 
   h1 {
-    font-size: 4rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 5rem;
   }
 
   a {
@@ -16,11 +20,13 @@ const Header = styled.header`
   }
 
   h3 {
-    font-size: 1.5rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 1.3rem;
   }
 
   .mobileView {
-    @media (min-width: 4500px) {
+    @media (min-width: 450px) {
       display: none;
     }
   }
