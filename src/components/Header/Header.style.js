@@ -1,12 +1,18 @@
 import styled from "styled-components";
 
 const Header = styled.header`
+  text-transform: uppercase;
+
   h1 {
     font-size: 4rem;
   }
 
   a {
     text-decoration: none;
+  }
+
+  a:visited {
+    color: #15416b;
   }
 
   h3 {
