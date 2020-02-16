@@ -1,14 +1,14 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
-import About from "./About";
+import ContactInfo from "./ContactInfo";
 
-test("About component renders", () => {
+test("ContactInfo component renders", () => {
   const { getByText } = render(
     <BrowserRouter>
-      <About />
+      <ContactInfo />
     </BrowserRouter>
   );
-  const linkElement = getByText(/Who am I/i);
+  const linkElement = getByText(/hello@kinau.co.uk/i);
   expect(linkElement).toBeInTheDocument();
 });
