@@ -8,7 +8,7 @@ const Navbar = () => {
       <ul>
         <li>
           <NavLink to="/About" activeClassName="selected">
-            About me
+            About Me
           </NavLink>
         </li>
         <li>
