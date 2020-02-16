@@ -11,8 +11,8 @@ const Header = () => {
       <Link to="/">
         <h1>Kin Au</h1>
       </Link>
-
       <h3>Full Stack Developer</h3>
+      <hr />
       <div className="mobileView">
         <MobileNav />
       </div>
