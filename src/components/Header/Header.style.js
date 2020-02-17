@@ -8,7 +8,10 @@ const Header = styled.header`
     margin-right: 2rem;
     margin-block-start: 1rem;
     margin-block-end: 0;
-    font-size: 4.3rem;
+    font-family: "Raleway Black", sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0.4rem;
+    font-size: 3.5rem;
   }
 
   a {
@@ -23,12 +26,16 @@ const Header = styled.header`
     margin-right: 2rem;
     margin-block-start: 0;
     margin-block-end: 1rem;
-    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 0.85rem;
   }
 
   hr {
-    border: 0.5rem solid #9dc6ec;
-    width: 50%;
+    border: 0.5rem solid;
+    color: #9dc6ec;
+    background-color: #9dc6ec;
+    width: calc(100vw - 3rem);
     margin-left: 0;
   }
 

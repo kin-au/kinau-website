@@ -7,13 +7,15 @@ const Nav = styled.nav`
   width: 100vw;
   bottom: 0;
   right: 0;
-  font-size: 1.5rem;
   text-align: right;
 
   ul {
     padding-left: 0;
     list-style-type: none;
     text-transform: uppercase;
+    font-family: "Raleway Black", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
   }
 
   /*   a:hover {
@@ -33,6 +35,10 @@ const Nav = styled.nav`
 
   li {
     padding: 0.8rem;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   a:visited {

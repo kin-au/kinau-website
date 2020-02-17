@@ -1,14 +1,14 @@
 import React from "react";
-import "./Contact.css";
+import * as SC from "./Contact.style";
 import email from "../../assets/email.svg";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
 
 const Contact = () => {
   return (
-    <>
+    <SC.Contact>
       <h2>This is the Contact page</h2>
-      <ul className="contact-list">
+      <ul>
         <li>
           <img src={email} alt="email" className="contact-logo"></img>
           hello@kinau.co.uk
@@ -22,7 +22,7 @@ const Contact = () => {
           linkedin.com/in/kin-au
         </li>
       </ul>
-    </>
+    </SC.Contact>
   );
 };
 

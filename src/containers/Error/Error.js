@@ -1,8 +1,14 @@
 import React from "react";
-import "./Error.css";
+import * as SC from "./Error.style";
+import { NavLink } from "react-router-dom";
 
 const Error = () => {
-  return <h1>Error 404 yoooo</h1>;
+  return (
+    <SC.Section>
+      <div>Error 404</div>
+      <NavLink to="/">Back to homepage</NavLink>{" "}
+    </SC.Section>
+  );
 };
 
 export default Error;
