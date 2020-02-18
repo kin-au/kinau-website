@@ -5,15 +5,17 @@ const Nav = styled.nav`
   color: #ffffff;
   position: fixed;
   width: 100vw;
-  bottom: 0;
+  bottom: 1rem;
   right: 0;
-  font-size: 1.5rem;
   text-align: right;
 
   ul {
     padding-left: 0;
     list-style-type: none;
     text-transform: uppercase;
+    font-family: "Raleway Black", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
   }
 
   /*   a:hover {
@@ -35,6 +37,10 @@ const Nav = styled.nav`
     padding: 0.8rem;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   a:visited {
     color: #ffffff;
   }
@@ -53,7 +59,7 @@ const NavButton = styled.button`
   color: #ffffff;
   border: none;
   position: fixed;
-  bottom: 0;
+  bottom: 1rem;
   right: 0;
   font-size: 2rem;
   height: 3rem;

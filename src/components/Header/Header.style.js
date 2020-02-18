@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
 const Header = styled.header`
-  margin: 1rem;
-  text-align: center;
+  text-align: right;
   text-transform: uppercase;
 
   h1 {
-    margin-block-start: 0;
+    margin-right: 2rem;
+    margin-block-start: 1rem;
     margin-block-end: 0;
-    font-size: 5rem;
+    font-family: "Raleway Black", sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0.4rem;
+    font-size: 3.5rem;
   }
 
   a {
@@ -20,9 +23,20 @@ const Header = styled.header`
   }
 
   h3 {
+    margin-right: 2rem;
     margin-block-start: 0;
-    margin-block-end: 0;
-    font-size: 1.3rem;
+    margin-block-end: 1rem;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 0.85rem;
+  }
+
+  hr {
+    border: 0.5rem solid;
+    color: #9dc6ec;
+    background-color: #9dc6ec;
+    width: calc(100vw - 3rem);
+    margin-left: 0;
   }
 
   .mobileView {

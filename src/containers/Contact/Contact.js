@@ -1,28 +1,42 @@
 import React from "react";
-import "./Contact.css";
+import * as SC from "./Contact.style";
 import email from "../../assets/email.svg";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
 
 const Contact = () => {
   return (
-    <>
-      <h2>This is the Contact page</h2>
-      <ul className="contact-list">
+    <SC.Contact>
+      <h2>Get in touch! You'll find me at:</h2>
+      <ul>
         <li>
-          <img src={email} alt="email" className="contact-logo"></img>
-          hello@kinau.co.uk
+          <a href="mailto:hello@kinau.co.uk">
+            <img src={email} alt="email" className="contact-logo" />
+            hello@kinau.co.uk
+          </a>
         </li>
         <li>
-          <img src={github} alt="github" className="contact-logo"></img>
-          github.com/kin-au
+          <a
+            href="www.github.com/kin-au"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src={github} alt="github" className="contact-logo" />
+            github.com/kin-au
+          </a>
         </li>
         <li>
-          <img src={linkedin} alt="linkedin" className="contact-logo"></img>
-          linkedin.com/in/kin-au
+          <a
+            href="www.linkedin.com/in/kin-au"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src={linkedin} alt="linkedin" className="contact-logo" />
+            linkedin.com/in/kin-au
+          </a>
         </li>
       </ul>
-    </>
+    </SC.Contact>
   );
 };
 
