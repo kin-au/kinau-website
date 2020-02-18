@@ -8,9 +8,9 @@ const About = () => {
       <p>
         Full stack web developer. Strong team player who is also confident
         working independently. Passionate about making things and solving
-        problems by crafting simple, elegant solutions. Looking for a full-stack
-        role in a diverse, supportive environment that encourages growth and
-        continued learning.
+        problems by crafting simple, elegant solutions. Interested in making
+        life better using technology. Thrives in a diverse, collaborative
+        environment that encourages growth and continued learning.
       </p>
     </SC.Section>
   );

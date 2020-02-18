@@ -5,7 +5,7 @@ const Nav = styled.nav`
   color: #ffffff;
   position: fixed;
   width: 100vw;
-  bottom: 0;
+  bottom: 1rem;
   right: 0;
   text-align: right;
 
@@ -59,7 +59,7 @@ const NavButton = styled.button`
   color: #ffffff;
   border: none;
   position: fixed;
-  bottom: 0;
+  bottom: 1rem;
   right: 0;
   font-size: 2rem;
   height: 3rem;

@@ -8,6 +8,7 @@ import Projects from "./containers/Projects/Projects";
 import CV from "./containers/CV/CV";
 import Contact from "./containers/Contact/Contact";
 import Error from "./containers/Error/Error";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/Contact" render={() => <Contact exact />} />
         <Route render={() => <Error />} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 };
