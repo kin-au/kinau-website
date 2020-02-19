@@ -15,6 +15,7 @@ const Header = styled.header`
   }
 
   a {
+    color: #15416b;
     text-decoration: none;
   }
 
