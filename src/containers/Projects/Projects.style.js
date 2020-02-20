@@ -9,7 +9,7 @@ const Projects = styled.section`
   article {
     max-width: 400px;
     border: 2px solid #9dc6ec;
-    margin-bottom: 1rem;
+    margin: 1rem auto;
     padding: 0.5rem;
   }
 
