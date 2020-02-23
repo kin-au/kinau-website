@@ -38,6 +38,7 @@ const Nav = styled.nav`
   }
 
   a {
+    color: #ffffff;
     text-decoration: none;
   }
 

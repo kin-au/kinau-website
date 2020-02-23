@@ -9,7 +9,7 @@ const About = () => {
         Full stack web developer. Strong team player who is also confident
         working independently. Passionate about making things and solving
         problems by crafting simple, elegant solutions. Interested in making
-        life better using technology. Thrives in a diverse, collaborative
+        life better using technology. Thrives in a diverse and collaborative
         environment that encourages growth and continued learning.
       </p>
     </SC.Section>

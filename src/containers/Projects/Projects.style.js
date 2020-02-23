@@ -9,7 +9,7 @@ const Projects = styled.section`
   article {
     max-width: 400px;
     border: 2px solid #9dc6ec;
-    margin-bottom: 1rem;
+    margin: 1rem;
     padding: 0.5rem;
   }
 
@@ -37,6 +37,15 @@ const Projects = styled.section`
     font-weight: 700;
     font-size: 1.2em;
     text-transform: uppercase;
+  }
+
+  @media (min-width: 768px) {
+    position: fixed;
+    .projectsContainer {
+      display: flex;
+      align-content: space-around;
+    }
+    margin: 12rem 2rem 30vw 35vw;
   }
 `;
 

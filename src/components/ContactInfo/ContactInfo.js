@@ -8,16 +8,30 @@ const ContactInfo = () => {
   return (
     <SC.ContactList>
       <li>
-        <img src={email} alt="email" className="contact-logo"></img>
-        hello@kinau.co.uk
+        <a href="mailto:hello@kinau.co.uk">
+          hello@kinau.co.uk
+          <img src={email} alt="email" className="contact-logo"></img>
+        </a>
       </li>
       <li>
-        <img src={github} alt="github" className="contact-logo"></img>
-        github.com/kin-au
+        <a
+          href="https://www.github.com/kin-au"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          github.com/kin-au
+          <img src={github} alt="github" className="contact-logo"></img>
+        </a>
       </li>
       <li>
-        <img src={linkedin} alt="linkedin" className="contact-logo"></img>
-        linkedin.com/in/kin-au
+        <a
+          href="https://www.linkedin.com/in/kin-au"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          linkedin.com/in/kin-au
+          <img src={linkedin} alt="linkedin" className="contact-logo"></img>
+        </a>
       </li>
     </SC.ContactList>
   );
