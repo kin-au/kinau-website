@@ -10,6 +10,12 @@ const Footer = styled.footer`
     bottom: 0;
     margin-block-end: 0;
   }
+
+  @media (min-width: 768px) {
+    hr {
+      border: 0.8rem solid;
+    }
+  }
 `;
 
 export { Footer };

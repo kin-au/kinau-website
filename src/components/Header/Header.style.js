@@ -42,11 +42,13 @@ const Header = styled.header`
 
   .allView {
     @media (min-width: 768px) {
+      position: fixed;
       text-align: right;
-      margin-right: 65vw;
-      margin-block-start: 3rem;
+      min-width: 400px;
+      margin-right: 70vw;
 
       h1 {
+        margin-block-start: 3rem;
         margin-block-end: 1rem;
         font-size: 6rem;
       }
@@ -58,7 +60,9 @@ const Header = styled.header`
 
       hr {
         border: 0.8rem solid;
-        width: calc(100vw - 65vw - 3.5rem);
+        min-width: 375px;
+        width: calc(100vw - 70vw - 3.5rem);
+        margin-right: 0;
         margin-bottom: 2rem;
       }
     }
@@ -74,8 +78,6 @@ const Header = styled.header`
     display: none;
     @media (min-width: 768px) {
       display: block;
-      /* .allView { */
-      /* } */
     }
   }
 `;

@@ -25,9 +25,13 @@ const Contact = styled.section`
 
   .contact-logo {
     vertical-align: middle;
-    height: 2rem;
-    width: 2rem;
-    padding: 0.3rem 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.3rem 0.5rem 0.3rem 0;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
   }
 `;
 

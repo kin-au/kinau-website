@@ -38,6 +38,11 @@ const Projects = styled.section`
     font-size: 1.2em;
     text-transform: uppercase;
   }
+
+  @media (min-width: 768px) {
+    position: fixed;
+    margin: 17rem 2rem 30vw 35vw;
+  }
 `;
 
 export { Projects };

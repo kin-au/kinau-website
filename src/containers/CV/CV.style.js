@@ -18,6 +18,11 @@ const CV = styled.section`
   a:visited {
     color: #15416b;
   }
+
+  @media (min-width: 768px) {
+    position: fixed;
+    margin: 17rem 2rem 30vw 35vw;
+  }
 `;
 
 export { CV };
