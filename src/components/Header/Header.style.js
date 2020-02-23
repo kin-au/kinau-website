@@ -43,9 +43,9 @@ const Header = styled.header`
   .allView {
     @media (min-width: 768px) {
       position: fixed;
-      text-align: right;
+      /* text-align: right; */
       min-width: 400px;
-      margin-right: 70vw;
+      /* margin-right: 70vw; */
 
       h1 {
         margin-block-start: 3rem;

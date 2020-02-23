@@ -11,7 +11,7 @@ const Section = styled.section`
 
   @media (min-width: 768px) {
     position: fixed;
-    margin: 17rem 2rem 30vw 35vw;
+    margin: 12rem 2rem 30vw 35vw;
   }
 `;
 

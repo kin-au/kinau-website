@@ -9,7 +9,7 @@ const Projects = styled.section`
   article {
     max-width: 400px;
     border: 2px solid #9dc6ec;
-    margin: 1rem auto;
+    margin: 1rem;
     padding: 0.5rem;
   }
 
@@ -41,7 +41,11 @@ const Projects = styled.section`
 
   @media (min-width: 768px) {
     position: fixed;
-    margin: 17rem 2rem 30vw 35vw;
+    .projectsContainer {
+      display: flex;
+      align-content: space-around;
+    }
+    margin: 12rem 2rem 30vw 35vw;
   }
 `;
 

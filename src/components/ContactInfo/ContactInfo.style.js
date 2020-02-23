@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 const ContactList = styled.ul`
   position: fixed;
-  display: block;
+  /* display: block; */
   /* top: 20rem; */
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
   font-size: 1.5rem;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  /* margin-block-start: 0; */
+  /* margin-block-end: 0; */
   list-style-type: none;
   padding-left: 0;
   margin: 20rem 70vw 0 0;
