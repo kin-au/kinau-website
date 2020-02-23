@@ -17,7 +17,7 @@ const Projects = () => {
             <li>
               <span className="subheading">Demo: </span>
               <a
-                href="https://www.gateway2heritage.netlify.com"
+                href="https://gateway2heritage.netlify.com"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -27,7 +27,7 @@ const Projects = () => {
             <li>
               <span className="subheading">Code: </span>
               <a
-                href="https://www.github.com/fac18/t4b-g2h"
+                href="https://github.com/fac18/t4b-g2h"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -68,7 +68,7 @@ const Projects = () => {
             <li>
               <span className="subheading">Demo: </span>
               <a
-                href="https://www.wearehumble.herokuapp.com"
+                href="https://wearehumble.herokuapp.com"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -78,7 +78,7 @@ const Projects = () => {
             <li>
               <span className="subheading">Code: </span>
               <a
-                href="https://www.github.com/fac18/humble"
+                href="https://github.com/fac18/humble"
                 rel="noopener noreferrer"
                 target="_blank"
               >

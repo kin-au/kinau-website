@@ -17,7 +17,7 @@ const Contact = () => {
         </li>
         <li>
           <a
-            href="https://www.github.com/kin-au"
+            href="https://github.com/kin-au"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -27,7 +27,7 @@ const Contact = () => {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/kin-au"
+            href="https://linkedin.com/in/kin-au"
             rel="noopener noreferrer"
             target="_blank"
           >
