@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const ContactList = styled.ul`
-  position: fixed;
+  display: none;
+  /* position: fixed; */
   /* display: block; */
   /* top: 20rem; */
   font-family: "Open Sans", sans-serif;
@@ -11,10 +12,17 @@ const ContactList = styled.ul`
   /* margin-block-end: 0; */
   list-style-type: none;
   padding-left: 0;
-  margin: 20rem 70vw 0 0;
-  min-width: 400px;
+  /* margin: 20rem 70vw 0 0; */
+  /* min-width: 400px; */
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 
   a {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
     text-decoration: none;
     color: #15416b;
   }

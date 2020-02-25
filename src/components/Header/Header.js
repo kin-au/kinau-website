@@ -8,20 +8,10 @@ import ContactInfo from "../ContactInfo/ContactInfo";
 const Header = () => {
   return (
     <SC.Header>
-      <div className="allView">
-        <Link to="/">
-          <h1>Kin Au</h1>
-        </Link>
-        <h3>Full Stack Developer</h3>
-        <hr />
-      </div>
-      <div className="mobileView">
-        <MobileNav />
-      </div>
-      <div className="desktopView">
-        <ContactInfo />
-        <Navbar />
-      </div>
+      <Link to="/">
+        <h1>Kin Au</h1>
+      </Link>
+      <h3>Full Stack Developer</h3>
     </SC.Header>
   );
 };

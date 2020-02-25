@@ -9,6 +9,10 @@ const Nav = styled.nav`
   right: 0;
   text-align: right;
 
+  @media (min-width: 768px) {
+    display: none;
+  }
+
   ul {
     padding-left: 0;
     list-style-type: none;
@@ -65,6 +69,10 @@ const NavButton = styled.button`
   font-size: 2rem;
   height: 3rem;
   width: 3rem;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export { Nav, NavButton };

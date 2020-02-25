@@ -20,8 +20,13 @@ const CV = styled.section`
   }
 
   @media (min-width: 768px) {
-    position: fixed;
-    margin: 12rem 2rem 30vw 35vw;
+    /* position: fixed; */
+    margin-top: 1.65rem;
+
+    .downloadLink {
+      margin: 5rem auto;
+    }
+    /* margin: 12rem 2rem 30vw 35vw; */
   }
 `;
 
