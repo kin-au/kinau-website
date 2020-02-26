@@ -1,7 +1,7 @@
 import React from "react";
 import * as SC from "./CV.style";
-import download from "../../assets/download.svg";
-import cv from "../../assets/20200219-kin-au-cv-website.pdf";
+import download from "../../assets/icons/download.svg";
+import cv from "../../assets/cv/20200219-kin-au-cv-website.pdf";
 
 const CV = () => {
   return (

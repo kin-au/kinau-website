@@ -1,8 +1,8 @@
 import React from "react";
 import * as SC from "./Contact.style";
-import email from "../../assets/email.svg";
-import github from "../../assets/github.svg";
-import linkedin from "../../assets/linkedin.svg";
+import email from "../../assets/icons/email.svg";
+import github from "../../assets/icons/github.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
 
 const Contact = () => {
   return (

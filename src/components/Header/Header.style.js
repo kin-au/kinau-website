@@ -32,20 +32,8 @@ const Header = styled.header`
     font-size: 0.85rem;
     text-transform: uppercase;
   }
-  /* 
-  hr {
-    border: 0.5rem solid;
-    color: #9dc6ec;
-    background-color: #9dc6ec;
-    width: calc(100vw - 3rem);
-    margin-left: 0;
-  } */
 
   @media (min-width: 768px) {
-    /* position: fixed; */
-    /* text-align: right; */
-    /* min-width: 400px; */
-    /* margin-right: 70vw; */
     padding-right: 0;
     border-bottom: 1.5rem solid #9dc6ec;
 

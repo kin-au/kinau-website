@@ -1,16 +1,24 @@
 import React from "react";
 import * as SC from "./Projects.style";
+import t4b from "../../assets/projects/g2h.gif";
+import humble from "../../assets/projects/humble.gif";
 
 const Projects = () => {
   return (
     <SC.Projects>
       <div className="contentWrapper">
         <h2>Recent projects:</h2>
-        <div class="projectsContainer">
+        <div className="projectsContainer">
           <article>
-            <div className="leftContent">
+            <div className="projectHeadline">
               <h3 className="projectName">Gateway 2 Heritage</h3>
               <h4>DevOps & Developer</h4>
+              <div className="imageMobile">
+                <img
+                  src={t4b}
+                  alt="tech for better, gateway to heritage project"
+                />
+              </div>
               <p>
                 <span className="subheading">Stack: </span>Airtable database,
                 Netlify functions, React.js
@@ -18,7 +26,7 @@ const Projects = () => {
               <p>
                 <span className="subheading">Demo: </span>
                 <a
-                  href="github.com/fac18/t4b-g2h"
+                  href="https://gateway2heritage.netlify.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -28,7 +36,7 @@ const Projects = () => {
               <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="github.com/fac18/t4b-g2h"
+                  href="https://github.com/fac18/t4b-g2h"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -36,7 +44,12 @@ const Projects = () => {
                 </a>
               </p>
             </div>
-            <div className="rightContent">PHOTO HERE</div>
+            <div className="imageDesktop">
+              <img
+                src={t4b}
+                alt="tech for better, gateway to heritage project"
+              />
+            </div>
             <ul>
               <li>
                 An image licensing platform for small heritage and cultural{" "}
@@ -56,17 +69,23 @@ const Projects = () => {
             </ul>
           </article>
           <article>
-            <div className="leftContent">
+            <div className="projectHeadline">
               <h3 className="projectName">Humble</h3>
               <h4>Scrum Master & Developer</h4>
+              <div className="imageMobile">
+                <img
+                  src={humble}
+                  alt="tech for better, gateway to heritage project"
+                />
+              </div>
               <p>
                 <span className="subheading">Stack: </span>Express, PostgreSQL,
-                React.js
+                React.js, Google Maps API
               </p>
               <p>
                 <span className="subheading">Demo: </span>
                 <a
-                  href="wearehumble.herokuapp.com"
+                  href="https://wearehumble.herokuapp.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -76,7 +95,7 @@ const Projects = () => {
               <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="github.com/fac18/humble"
+                  href="https://github.com/fac18/humble"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -84,7 +103,9 @@ const Projects = () => {
                 </a>
               </p>
             </div>
-            <div className="rightContent">PHOTO HERE</div>
+            <div className="imageDesktop">
+              <img src={humble} alt="humble project" />
+            </div>
             <ul>
               <li>
                 A social platform enabling people to connect with their local{" "}

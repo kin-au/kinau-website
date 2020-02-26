@@ -14,7 +14,6 @@ const Section = styled.section`
 
   @media (min-width: 768px) {
     margin-top: 1.65rem;
-    /* margin: 12rem 2rem 30vw 35vw; */
   }
 `;
 

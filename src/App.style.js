@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import styled from "styled-components";
 
 const App = styled.div`

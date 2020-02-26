@@ -22,21 +22,6 @@ const Nav = styled.nav`
     font-size: 1.5rem;
   }
 
-  /*   a:hover {
-    border-bottom: 10px solid #9dc6ec;
-    animation-name: onHover;
-    animation-duration: 0.2s;
-  }
-
-  @keyframes onHover {
-    from {
-      border-bottom: none;
-    }
-    to {
-      border-bottom: 10px solid #9dc6ec;
-    }
-  } */
-
   li {
     padding: 0.8rem;
   }
