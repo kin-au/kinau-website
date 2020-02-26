@@ -34,7 +34,7 @@ const Projects = styled.section`
   }
 
   p {
-    margin: 0;
+    margin: 0.5rem;
   }
 
   .subheading {

@@ -21,7 +21,7 @@ const Projects = () => {
               </div>
               <p>
                 <span className="subheading">Stack: </span>Airtable database,
-                Netlify functions, React.js
+                Netlify functions, React.js, Material UI
               </p>
               <p>
                 <span className="subheading">Demo: </span>
@@ -80,7 +80,7 @@ const Projects = () => {
               </div>
               <p>
                 <span className="subheading">Stack: </span>Express, PostgreSQL,
-                React.js, Google Maps API
+                React.js, Google Maps API, Styled Components
               </p>
               <p>
                 <span className="subheading">Demo: </span>
