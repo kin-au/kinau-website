@@ -7,45 +7,105 @@ const Projects = styled.section`
   word-wrap: break-word;
 
   article {
-    max-width: 400px;
     border: 2px solid #9dc6ec;
-    margin: 1rem;
-    padding: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
   }
 
   a {
     text-decoration: none;
     color: #15416b;
+    opacity: 1;
+    transition: 0.4s;
+  }
+
+  a:hover {
+    opacity: 0.8;
+    transition: 0.2s;
   }
 
   a:visited {
     color: #15416b;
   }
 
-  .projectDetails {
-    list-style-type: none;
-    color: #333333;
-    padding-left: 0;
+  p {
+    margin: 0.5rem;
   }
 
   .subheading {
+    margin-block-start: 0;
+    margin-block-end: 0;
     font-weight: 700;
   }
 
+  h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 1.3rem;
+  }
+
   .projectName {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 1rem;
     font-family: "Raleway Black", sans-serif;
     font-weight: 700;
     font-size: 1.2em;
     text-transform: uppercase;
   }
 
+  .imageMobile {
+    display: block;
+    width: 100%;
+  }
+
+  .imageDesktop {
+    display: none;
+  }
+
   @media (min-width: 768px) {
-    position: fixed;
+    margin-top: 1.65rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+
     .projectsContainer {
-      display: flex;
-      align-content: space-around;
+      margin-top: 1rem;
+      width: 100%;
     }
-    margin: 12rem 2rem 30vw 35vw;
+
+    .contentWrapper {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+
+    article {
+      margin-right: 1rem;
+      padding: 1rem;
+    }
+
+    .projectHeadline {
+      display: inline-block;
+      width: 50%;
+    }
+
+    .imageMobile {
+      display: none;
+    }
+
+    .imageDesktop {
+      display: inline-block;
+      width: 50%;
+    }
   }
 `;
 

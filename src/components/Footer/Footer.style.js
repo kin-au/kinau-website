@@ -1,20 +1,14 @@
 import styled from "styled-components";
 
 const Footer = styled.footer`
-  hr {
-    position: fixed;
-    border: 0.5rem solid;
-    color: #9dc6ec;
-    background-color: #9dc6ec;
-    width: 100vw;
-    bottom: 0;
-    margin-block-end: 0;
-  }
+  position: fixed;
+  border-bottom: 1.1rem solid #9dc6ec;
+  bottom: 0;
+  left: 0;
+  right: 0%;
 
   @media (min-width: 768px) {
-    hr {
-      border: 0.8rem solid;
-    }
+    border-bottom-width: 1.5rem;
   }
 `;
 

@@ -8,11 +8,19 @@ const CV = styled.section`
   div {
     display: block;
     text-align: center;
+    opacity: 1;
+    transition: 0.4s;
   }
+
   a {
     text-decoration: none;
     color: #15416b;
     font-size: 1.2rem;
+  }
+
+  div:hover {
+    opacity: 0.8;
+    transition: 0.2s;
   }
 
   a:visited {
@@ -20,8 +28,11 @@ const CV = styled.section`
   }
 
   @media (min-width: 768px) {
-    position: fixed;
-    margin: 12rem 2rem 30vw 35vw;
+    margin-top: 1.65rem;
+
+    .downloadLink {
+      margin: 5rem auto;
+    }
   }
 `;
 

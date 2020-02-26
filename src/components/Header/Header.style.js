@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const Header = styled.header`
-  margin-right: 2rem;
+  padding-right: 2rem;
   text-align: right;
+  border-bottom: 1.1rem solid #9dc6ec;
 
   h1 {
     margin-block-start: 1rem;
@@ -32,52 +33,19 @@ const Header = styled.header`
     text-transform: uppercase;
   }
 
-  hr {
-    border: 0.5rem solid;
-    color: #9dc6ec;
-    background-color: #9dc6ec;
-    width: calc(100vw - 3rem);
-    margin-left: 0;
-  }
+  @media (min-width: 768px) {
+    padding-right: 0;
+    border-bottom: 1.5rem solid #9dc6ec;
 
-  .allView {
-    @media (min-width: 768px) {
-      position: fixed;
-      /* text-align: right; */
-      min-width: 400px;
-      /* margin-right: 70vw; */
-
-      h1 {
-        margin-block-start: 3rem;
-        margin-block-end: 1rem;
-        font-size: 6rem;
-      }
-
-      h3 {
-        margin-block-end: 2rem;
-        font-size: 1.5rem;
-      }
-
-      hr {
-        border: 0.8rem solid;
-        min-width: 375px;
-        width: calc(100vw - 70vw - 3.5rem);
-        margin-right: 0;
-        margin-bottom: 2rem;
-      }
+    h1 {
+      margin-block-start: 3rem;
+      margin-block-end: 1rem;
+      font-size: 6rem;
     }
-  }
 
-  .mobileView {
-    @media (min-width: 768px) {
-      display: none;
-    }
-  }
-
-  .desktopView {
-    display: none;
-    @media (min-width: 768px) {
-      display: block;
+    h3 {
+      margin-block-end: 2rem;
+      font-size: 1.5rem;
     }
   }
 `;

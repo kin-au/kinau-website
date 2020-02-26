@@ -10,8 +10,8 @@ const Section = styled.section`
   }
 
   @media (min-width: 768px) {
-    position: fixed;
-    margin: 12rem 2rem 30vw 35vw;
+    margin-top: 1.65rem;
+    margin-right: 3rem;
   }
 `;
 
