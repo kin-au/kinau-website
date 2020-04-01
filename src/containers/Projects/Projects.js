@@ -146,8 +146,7 @@ const Projects = () => {
                 />
               </div>
               <p>
-                <span className="subheading">Stack/tools: </span>React.js, HTML,
-                CSS
+                <span className="subheading">Stack/tools: </span>React.js
               </p>
               <p>
                 <span className="subheading">Code: </span>
@@ -190,7 +189,7 @@ const Projects = () => {
               </div>
               <p>
                 <span className="subheading">Stack/tools: </span>Express with
-                Handlebars, MVC Framework, PostgreSQL
+                Handlebars (MVC Framework) PostgreSQL
               </p>
               <p>
                 <span className="subheading">Demo: </span>
@@ -251,11 +250,11 @@ const Projects = () => {
               <p>
                 <span className="subheading">Demo: </span>
                 <a
-                  href="https://dark-server-api.herokuapp.com/"
+                  href="https://dark-server-api.herokuapp.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  dark-server-api.herokuapp.com/
+                  dark-server-api.herokuapp.com
                 </a>
               </p>
               <p>
@@ -386,11 +385,11 @@ const Projects = () => {
               <p>
                 <span className="subheading">Demo: </span>
                 <a
-                  href="https://fac18.github.io/week2-ajnp-sbs-todolist/"
+                  href="https://fac18.github.io/week2-ajnp-sbs-todolist"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  fac18.github.io/week2-ajnp-sbs-todolist/
+                  fac18.github.io/week2-ajnp-sbs-todolist
                 </a>
               </p>
               <p>
