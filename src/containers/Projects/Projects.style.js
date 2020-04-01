@@ -96,6 +96,7 @@ const Projects = styled.section`
     .projectHeadline {
       display: inline-block;
       width: 50%;
+      vertical-align: top;
     }
 
     .imageMobile {
