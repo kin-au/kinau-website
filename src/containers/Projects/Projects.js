@@ -3,6 +3,7 @@ import * as SC from "./Projects.style";
 import t4b from "../../assets/projects/g2h.gif";
 import humble from "../../assets/projects/humble.gif";
 import keeponflyin from "../../assets/projects/keeponflyin.gif";
+import bibliotech from "../../assets/projects/bibliotech.gif";
 import shouldigoout from "../../assets/projects/shouldigoout.gif";
 import wtf from "../../assets/projects/wtf.gif";
 import gifsthesia from "../../assets/projects/gifsthesia.gif";
@@ -180,6 +181,62 @@ const Projects = () => {
 
           <article>
             <div className="projectHeadline">
+              <h3 className="projectName">Bibliotech</h3>
+              <div className="imageMobile">
+                <img
+                  src={bibliotech}
+                  alt="founders and coders project, bibliotech"
+                />
+              </div>
+              <p>
+                <span className="subheading">Stack/tools: </span>Express with
+                Handlebars, MVC Framework, PostgreSQL
+              </p>
+              <p>
+                <span className="subheading">Demo: </span>
+                <a
+                  href="https://fac-week8-project.herokuapp.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  fac-week8-project.herokuapp.com
+                </a>
+              </p>
+              <p>
+                <span className="subheading">Code: </span>
+                <a
+                  href="https://github.com/fac18/week8-pbok"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  github.com/fac18/week8-pbok
+                </a>
+              </p>
+            </div>
+            <div className="imageDesktop">
+              <img
+                src={bibliotech}
+                alt="founders and coders project, bibliotech"
+              />
+            </div>
+            <ul>
+              <li>
+                A collection of developer’s online resources that anyone can
+                contribute to
+              </li>
+              <li>
+                Features adding new resources to library, and displaying
+                resources filtered by language
+              </li>
+              <li>
+                Built as part of the Founders and Coders curriculum (templating
+                languages)
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <div className="projectHeadline">
               <h3 className="projectName">Should I Go Out Today?</h3>
               <div className="imageMobile">
                 <img
@@ -305,7 +362,7 @@ const Projects = () => {
                 Guess a random UK Chart song, with its lyrics represented as
                 GIFs
               </li>
-              <li>Implemented the MusixMatch and Giphy APIs </li>
+              <li>Implemented the MusixMatch and Giphy APIs</li>
               <li>
                 Built as part of the Founders and Coders curriculum
                 (introduction to APIs)
