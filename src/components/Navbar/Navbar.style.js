@@ -30,6 +30,8 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
+    animation-name: offHoverBorder;
+    animation-duration: 0.2s;
   }
 
   a.selected {
@@ -52,6 +54,15 @@ const Nav = styled.nav`
     }
     to {
       border-bottom: 1.2rem solid #9dc6ec;
+    }
+  }
+
+  @keyframes offHoverBorder {
+    from {
+      border-bottom: 1.2rem solid #9dc6ec;
+    }
+    to {
+      border-bottom: none;
     }
   }
 `;
