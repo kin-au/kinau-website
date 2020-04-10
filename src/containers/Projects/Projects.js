@@ -26,8 +26,9 @@ const Projects = () => {
                 />
               </div>
               <p>
-                <span className="subheading">Stack/tools: </span>Airtable
-                database, Netlify functions, React.js, Material UI
+                <span className="subheading">Stack/tools: </span>React.js,
+                Material UI, Styled Components, Netlify functions, Airtable
+                database
               </p>
               <p>
                 <span className="subheading">Demo: </span>
@@ -59,7 +60,9 @@ const Projects = () => {
             <ul>
               <li>
                 An image licensing platform for small heritage and cultural{" "}
-                museums in the UK
+                museums in the UK, built as proof of concept for{" "}
+                <strong>external product owners</strong> to secure funding from
+                investors
               </li>
               <li>
                 As DevOps lead for our team, took on responsibility of planning
