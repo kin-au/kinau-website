@@ -31,7 +31,7 @@ const Nav = styled.nav`
   a {
     text-decoration: none;
     animation-name: offHoverBorder;
-    animation-duration: 0.2s;
+    animation-duration: 0.4s;
   }
 
   a.selected {
