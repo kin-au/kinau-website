@@ -29,6 +29,7 @@ const Nav = styled.nav`
   }
 
   a {
+    color: #15416b;
     text-decoration: none;
     animation-name: offHoverBorder;
     animation-duration: 0.4s;
