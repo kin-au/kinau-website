@@ -14,7 +14,7 @@ const CV = styled.section`
 
   a {
     text-decoration: none;
-    color: #15416b;
+    color: #1e5b96;
     font-size: 1.2rem;
   }
 
@@ -24,7 +24,7 @@ const CV = styled.section`
   }
 
   a:visited {
-    color: #15416b;
+    color: #1e5b96;
   }
 
   @media (min-width: 768px) {

@@ -1,7 +1,7 @@
 import React from "react";
 import * as SC from "./CV.style";
 import download from "../../assets/icons/download.svg";
-import cv from "../../assets/cv/20200507-kin-au-cv-website.pdf";
+import cv from "../../assets/cv/20200510-kin-au-cv-website.pdf";
 
 const CV = () => {
   return (
@@ -10,7 +10,7 @@ const CV = () => {
       <div className="downloadLink">
         <a href={cv} rel="noopener noreferrer" target="_blank">
           <img src={download} alt="download icon" />
-          <h4>Download .pdf (73kb)</h4>
+          <h4>Download .pdf (77kb)</h4>
         </a>
       </div>
     </SC.CV>

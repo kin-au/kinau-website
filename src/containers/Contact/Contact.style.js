@@ -6,11 +6,11 @@ const Contact = styled.section`
 
   a {
     text-decoration: none;
-    color: #15416b;
+    color: #1e5b96;
   }
 
   a:visited {
-    color: #15416b;
+    color: #1e5b96;
   }
 
   ul {
