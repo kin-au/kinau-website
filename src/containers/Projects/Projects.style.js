@@ -10,6 +10,7 @@ const Projects = styled.section`
     border: 2px solid #9dc6ec;
     margin-bottom: 1rem;
     padding: 0.7rem;
+    border-radius: 6px;
   }
 
   img {
@@ -17,9 +18,13 @@ const Projects = styled.section`
     max-height: 100%;
   }
 
+  li {
+    color: #333333;
+  }
+
   a {
     text-decoration: none;
-    color: #15416b;
+    color: #1e5b96;
     opacity: 1;
     transition: 0.4s;
   }
@@ -30,7 +35,7 @@ const Projects = styled.section`
   }
 
   a:visited {
-    color: #15416b;
+    color: #1e5b96;
   }
 
   p {
@@ -75,17 +80,17 @@ const Projects = styled.section`
     height: 100%;
     overflow: auto;
 
-    .projectsContainer {
-      margin-top: 1rem;
-      width: 100%;
-    }
-
     .contentWrapper {
       position: absolute;
       top: 0;
       bottom: 0;
       right: 0;
       left: 0;
+    }
+
+    .projectsContainer {
+      margin-top: 1rem;
+      width: 100%;
     }
 
     article {

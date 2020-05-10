@@ -27,11 +27,11 @@ const ContactList = styled.ul`
     width: 100%;
     text-align: right;
     text-decoration: none;
-    color: #15416b;
+    color: #1e5b96;
   }
 
   a:visited {
-    color: #15416b;
+    color: #1e5b96;
   }
 
   img {

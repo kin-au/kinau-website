@@ -288,9 +288,9 @@ const Projects = () => {
 
           <article>
             <div className="projectHeadline">
-              <h3 className="projectName">WTF – Where’s The Food</h3>
+              <h3 className="projectName">WTF: Where’s The Food</h3>
               <div className="imageMobile">
-                <img src={wtf} alt="student project, WTF - where's the food" />
+                <img src={wtf} alt="student project, WTF: where's the food" />
               </div>
               <p>
                 <span className="subheading">Stack/tools: </span>Node.js, HTML,

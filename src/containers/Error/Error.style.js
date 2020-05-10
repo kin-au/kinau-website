@@ -10,6 +10,11 @@ const Section = styled.section`
 
   a {
     font-size: 1rem;
+    color: #1e5b96;
+  }
+
+  a:visited {
+    color: #1e5b96;
   }
 
   @media (min-width: 768px) {
