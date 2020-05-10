@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <SC.Projects>
       <div className="contentWrapper">
-        <h2>Recent projects:</h2>
+        <h2>Recent projects</h2>
         <div className="projectsContainer">
           <article>
             <div className="projectHeadline">
@@ -27,8 +27,8 @@ const Projects = () => {
               </div>
               <p>
                 <span className="subheading">Stack/tools: </span>React.js,
-                Material UI, Styled Components, Netlify functions, Airtable
-                database
+                Material UI, Styled Components, Netlify Lambda functions,
+                Airtable database
               </p>
               <p>
                 <span className="subheading">Demo: </span>

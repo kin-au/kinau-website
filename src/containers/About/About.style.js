@@ -7,6 +7,7 @@ const Section = styled.section`
 
   p {
     color: #333333;
+    margin-bottom: 0.5rem;
   }
 
   li {
@@ -16,7 +17,7 @@ const Section = styled.section`
   details {
     margin-bottom: 1rem;
     margin-right: 0.5rem;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
     border: 1px solid #9dc6ec;
     border-radius: 6px;
   }
@@ -27,6 +28,21 @@ const Section = styled.section`
 
   summary:hover {
     cursor: pointer;
+  }
+
+  details[open] > summary ~ * {
+    animation: fadeIn 0.5s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   a {
