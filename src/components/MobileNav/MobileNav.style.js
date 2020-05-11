@@ -10,10 +10,6 @@ const Nav = styled.nav`
   text-align: right;
   z-index: 90;
 
-  @media (min-width: 768px) {
-    display: none;
-  }
-
   ul {
     padding-left: 0;
     list-style-type: none;
@@ -42,6 +38,10 @@ const Nav = styled.nav`
 
   .bottomLink {
     margin-bottom: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
   }
 `;
 

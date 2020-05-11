@@ -29,8 +29,8 @@ const App = ({ location }) => {
           <TransitionGroup component={null}>
             <CSSTransition
               key={location.key}
-              timeout={{ enter: 500, exit: 500 }}
-              classNames={"fade"}
+              timeout={{ enter: 300 }}
+              classNames="fade"
             >
               <Switch location={location}>
                 <Route path="/About" component={About} exact />
