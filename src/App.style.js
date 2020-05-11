@@ -3,6 +3,19 @@
 import styled from "styled-components";
 
 const App = styled.div`
+  .fade-enter {
+    opacity: 0;
+  }
+
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+  }
+
+  .fade-exit {
+    display: none;
+  }
+
   @media (min-width: 768px) {
     display: flex;
 

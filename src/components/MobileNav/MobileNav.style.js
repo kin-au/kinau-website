@@ -8,10 +8,7 @@ const Nav = styled.nav`
   bottom: 1rem;
   right: 0;
   text-align: right;
-
-  @media (min-width: 768px) {
-    display: none;
-  }
+  z-index: 90;
 
   ul {
     padding-left: 0;
@@ -42,6 +39,10 @@ const Nav = styled.nav`
   .bottomLink {
     margin-bottom: 3rem;
   }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 const NavButton = styled.button`
@@ -54,6 +55,7 @@ const NavButton = styled.button`
   font-size: 2rem;
   height: 3rem;
   width: 3rem;
+  z-index: 100;
 
   @media (min-width: 768px) {
     display: none;
