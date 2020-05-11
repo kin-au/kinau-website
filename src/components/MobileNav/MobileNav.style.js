@@ -8,6 +8,7 @@ const Nav = styled.nav`
   bottom: 1rem;
   right: 0;
   text-align: right;
+  z-index: 90;
 
   @media (min-width: 768px) {
     display: none;
@@ -54,6 +55,7 @@ const NavButton = styled.button`
   font-size: 2rem;
   height: 3rem;
   width: 3rem;
+  z-index: 100;
 
   @media (min-width: 768px) {
     display: none;
