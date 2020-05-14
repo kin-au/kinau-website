@@ -9,7 +9,7 @@ const Header = styled.header`
     margin-block-start: 1rem;
     margin-block-end: 0;
     font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 0.4rem;
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -28,6 +28,7 @@ const Header = styled.header`
     margin-block-start: 0;
     margin-block-end: 1rem;
     font-family: "Open Sans", sans-serif;
+    font-weight: 500;
     letter-spacing: 0.2rem;
     font-size: 0.85rem;
     text-transform: uppercase;
@@ -46,6 +47,7 @@ const Header = styled.header`
     h3 {
       margin-block-end: 2rem;
       font-size: 1.5rem;
+      letter-spacing: 0.25rem;
     }
   }
 `;
