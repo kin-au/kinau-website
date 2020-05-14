@@ -41,51 +41,105 @@ const About = () => {
               tinkering on my project car.
             </p>
             <p>
-              If you would like to get in touch, just say
-              <a href="mailto:hello@kinau.co.uk">hello@kinau.co.uk</a>
+              If you would like to get in touch, just say{" "}
+              <strong>
+                <a href="mailto:hello@kinau.co.uk">hello@kinau.co.uk</a>
+              </strong>
             </p>
           </details>
           <details open="true">
             <summary>Timeline</summary>
-            <h1>LOREM IPSUM</h1>
+            <p>2018</p>
+            <p>
+              Oct – I was introduced to programming whilst working closely with
+              external software developers
+            </p>
+            <p>
+              Dec – All my free time was spent teaching myself HTML, CSS and
+              JavaScript
+            </p>
+            <p>2019</p>
+            <p>
+              Feb – My interest in coding grew as I started attending meetup
+              events and conferences, and speaking to different people in the
+              tech industry
+            </p>
+            <p>May – I made it my goal to transition to tech</p>
+            <p>
+              Aug – Being accepted onto{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.foundersandcoders.com/"
+              >
+                Founders and Coders (FAC)
+              </a>
+              , a highly selective full stack JavaScript bootcamp, was a major
+              turning point in achieving this
+            </p>
+            <p>Oct – I quit my insurance job to start FAC</p>
+            <p>2020</p>
+            <p>
+              Jan – Whilst still at FAC, I began teaching students at{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://codebar.io"
+              >
+                Codebar.io
+              </a>
+            </p>
+            <p>Feb – Graduated from Founders and Coders</p>
+            <p>Mar – Mentored current students at FAC</p>
           </details>
           <details open="true">
             <summary>Recent adventures and new learnings</summary>
-            <p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.arduino.cc"
-              >
-                Arduino
-              </a>
-            </p>
-            <ul>
-              <li>an electronics platform for hardware prototyping</li>
-            </ul>
-            <p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://cs50.harvard.edu/x/2020/puzzles"
-              >
-                Harvard CS50x Puzzle Day 2020
-              </a>
-            </p>
-            <ul>
-              <li>1 of only 299 teams to successfully solve all 8 puzzles</li>
-            </ul>
-            <p>New tech/tools:</p>
+            <p>I'm not really the type to stand still! Recently I have:</p>
             <ul>
               <li>
+                Continued to mentor (remotely) at{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://vuejs.org"
+                  href="https://codebar.io"
                 >
-                  Vue.js
+                  Codebar.io
                 </a>
               </li>
+              <li>
+                Been playing with{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.arduino.cc"
+                >
+                  Arduino
+                </a>
+                , an electronics platform for hardware prototyping
+              </li>
+              <li>
+                Completed{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://cs50.harvard.edu/x/2020/puzzles"
+                >
+                  Harvard's CS50x Puzzle Day 2020
+                </a>
+                , being 1 of only 299 teams to successfully solve all 8 puzzles
+              </li>
+              <li>Tried out new tech/tools:</li>
+              <ul>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://vuejs.org"
+                  >
+                    Vue.js
+                  </a>
+                </li>
+              </ul>
             </ul>
           </details>
         </div>
