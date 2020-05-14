@@ -49,7 +49,7 @@ const About = () => {
           </details>
           <details open="true">
             <summary>Timeline</summary>
-            <p>2018</p>
+            <h4>2018</h4>
             <p>
               Oct – I was introduced to programming whilst working closely with
               external software developers
@@ -58,7 +58,7 @@ const About = () => {
               Dec – All my free time was spent teaching myself HTML, CSS and
               JavaScript
             </p>
-            <p>2019</p>
+            <h4>2019</h4>
             <p>
               Feb – My interest in coding grew as I started attending meetup
               events and conferences, and speaking to different people in the
@@ -78,7 +78,7 @@ const About = () => {
               turning point in achieving this
             </p>
             <p>Oct – I quit my insurance job to start FAC</p>
-            <p>2020</p>
+            <h4>2020</h4>
             <p>
               Jan – Whilst still at FAC, I began teaching students at{" "}
               <a

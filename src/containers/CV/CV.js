@@ -1,6 +1,5 @@
 import React from "react";
 import * as SC from "./CV.style";
-import download from "../../assets/icons/download.svg";
 import logo from "../../assets/logos/kinau.svg";
 import cv from "../../assets/cv/20200510-kin-au-cv-website.pdf";
 
