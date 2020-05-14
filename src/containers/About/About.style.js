@@ -18,7 +18,7 @@ const Section = styled.section`
     margin-bottom: 1rem;
     margin-right: 0.5rem;
     padding: 0.5rem 0.8rem;
-    border: 1px solid #9dc6ec;
+    border: 1.5px solid #9dc6ec;
     border-radius: 6px;
   }
 
@@ -63,6 +63,7 @@ const Section = styled.section`
 
   @media (min-width: 768px) {
     margin-top: 1.65rem;
+    margin-bottom: 1.5rem;
     position: relative;
     height: 100%;
     overflow: auto;
