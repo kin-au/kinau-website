@@ -8,8 +8,8 @@ const Header = styled.header`
   h1 {
     margin-block-start: 1rem;
     margin-block-end: 0;
-    font-family: "Raleway Black", sans-serif;
-    font-weight: 1000;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     letter-spacing: 0.4rem;
     font-size: 3.5rem;
     text-transform: uppercase;
