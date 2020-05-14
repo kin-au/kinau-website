@@ -10,7 +10,7 @@ const About = () => {
           more about me.
         </h3>
         <div className="detailsContainer">
-          <details>
+          <details open="true">
             <summary>Who am I?</summary>
             <p>
               I am a <strong>web developer</strong> with a successful previous
@@ -22,7 +22,7 @@ const About = () => {
               my project car.
             </p>
           </details>
-          <details>
+          <details open="true">
             <summary>What's my background?</summary>
             <p>
               I was first introduced to programming in early 2019 whilst working
@@ -63,7 +63,7 @@ const About = () => {
               and FAC.
             </p>
           </details>
-          <details>
+          <details open="true">
             <summary>What makes me different?</summary>
             <p>
               I am looking for a role that aligns with my core values and career
@@ -123,7 +123,7 @@ const About = () => {
               <a href="mailto:hello@kinau.co.uk">hello@kinau.co.uk</a>
             </p>
           </details>
-          <details>
+          <details open="true">
             <summary>Recent adventures and new learnings</summary>
             <p>
               <a
