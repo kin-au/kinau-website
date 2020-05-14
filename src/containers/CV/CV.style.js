@@ -5,20 +5,25 @@ const CV = styled.section`
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
 
-  div {
-    display: block;
-    text-align: center;
-    opacity: 1;
-    transition: 0.4s;
+  img {
+    max-width: 150px;
   }
 
   a {
+    display: block;
+    opacity: 1;
+    text-align: center;
     text-decoration: none;
     color: #1e5b96;
     font-size: 1.2rem;
+    width: 15rem;
+    max-width: 100%;
+    padding: 1rem 0;
+    margin: 0 auto;
+    transition: 0.4s;
   }
 
-  div:hover {
+  a:hover {
     opacity: 0.8;
     transition: 0.2s;
   }
@@ -29,10 +34,6 @@ const CV = styled.section`
 
   @media (min-width: 768px) {
     margin-top: 1.65rem;
-
-    .downloadLink {
-      margin: 5rem auto;
-    }
   }
 `;
 

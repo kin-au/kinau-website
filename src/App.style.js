@@ -24,7 +24,7 @@ const App = styled.div`
       min-width: 400px;
       max-width: 35%;
       flex: 1;
-      padding-bottom: calc(100vh - 532px);
+      padding-bottom: calc(100vh - 533px);
     }
 
     .rightColumn {

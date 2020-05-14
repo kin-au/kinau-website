@@ -18,26 +18,27 @@ const Section = styled.section`
     margin-bottom: 1rem;
     margin-right: 0.5rem;
     padding: 0.5rem 0.8rem;
-    border: 1px solid #9dc6ec;
+    border: 1.5px solid #9dc6ec;
     border-radius: 6px;
-  }
-
-  summary {
-    font-weight: 600;
-  }
-
-  summary:hover {
-    cursor: pointer;
   }
 
   details[open] > summary ~ * {
     animation: fadeIn 0.5s;
   }
 
+  summary {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  summary:hover {
+    cursor: pointer;
+  }
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
-      transform: translateY(-10px);
+      transform: translateY(-15px);
     }
     100% {
       opacity: 1;
@@ -63,6 +64,7 @@ const Section = styled.section`
 
   @media (min-width: 768px) {
     margin-top: 1.65rem;
+    margin-bottom: 1.5rem;
     position: relative;
     height: 100%;
     overflow: auto;
