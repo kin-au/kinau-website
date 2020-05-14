@@ -55,8 +55,8 @@ const About = () => {
               external software developers
             </p>
             <p>
-              Dec – All my free time was spent teaching myself HTML, CSS and
-              JavaScript
+              Dec – Most of my free time was being spent teaching myself HTML,
+              CSS and JavaScript
             </p>
             <h4>2019</h4>
             <p>
@@ -90,7 +90,10 @@ const About = () => {
               </a>
             </p>
             <p>Feb – Graduated from Founders and Coders</p>
-            <p>Mar – Mentored current students at FAC</p>
+            <p>
+              Mar – Mentored current students at FAC, teaching the curriculum
+              and guiding teams through weekly projects
+            </p>
           </details>
           <details open="true">
             <summary>Recent adventures and new learnings</summary>
@@ -128,18 +131,16 @@ const About = () => {
                 </a>
                 , being 1 of only 299 teams to successfully solve all 8 puzzles
               </li>
-              <li>Tried out new tech/tools:</li>
-              <ul>
-                <li>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://vuejs.org"
-                  >
-                    Vue.js
-                  </a>
-                </li>
-              </ul>
+              <li>
+                Tried out new tech and tools like{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://vuejs.org"
+                >
+                  Vue.js
+                </a>
+              </li>
             </ul>
           </details>
         </div>

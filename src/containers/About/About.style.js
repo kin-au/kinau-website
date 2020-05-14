@@ -22,6 +22,10 @@ const Section = styled.section`
     border-radius: 6px;
   }
 
+  details[open] > summary ~ * {
+    animation: fadeIn 0.5s;
+  }
+
   summary {
     font-weight: 600;
     font-size: 1.1rem;
@@ -31,14 +35,10 @@ const Section = styled.section`
     cursor: pointer;
   }
 
-  details[open] > summary ~ * {
-    animation: fadeIn 0.5s;
-  }
-
   @keyframes fadeIn {
     0% {
       opacity: 0;
-      transform: translateY(-10px);
+      transform: translateY(-15px);
     }
     100% {
       opacity: 1;
