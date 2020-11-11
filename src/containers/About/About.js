@@ -94,10 +94,20 @@ const About = () => {
               Mar – Mentored current students at FAC, teaching the curriculum
               and guiding teams through weekly projects
             </p>
+            <p>
+              Jul – Launched my career in tech as a Frontend Developer at{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://smartway2.com"
+              >
+                Smartway2
+              </a>
+            </p>
           </details>
           <details open="true">
             <summary>Recent adventures and new learnings</summary>
-            <p>I'm not really the type to stand still! Recently I have:</p>
+            <p>I'm not really the type to sit still! Recently I have:</p>
             <ul>
               <li>
                 Continued to mentor (remotely) at{" "}
@@ -132,13 +142,21 @@ const About = () => {
                 , being 1 of only 299 teams to successfully solve all 8 puzzles
               </li>
               <li>
-                Tried out new tech and tools like{" "}
+                Tried out different tech and tools like{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://vuejs.org"
                 >
                   Vue.js
+                </a>{" "}
+                and{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://emberjs.com"
+                >
+                  Ember.js
                 </a>
               </li>
             </ul>
