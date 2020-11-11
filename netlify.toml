@@ -1,3 +1,5 @@
+[build]
+CI = ""
 [[redirects]]
   from = "/*"
   to = "/index.html"
