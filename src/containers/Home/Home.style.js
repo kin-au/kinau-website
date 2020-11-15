@@ -10,7 +10,7 @@ const Section = styled.section`
     margin-bottom: 0.5rem;
   }
 
-  /* a {
+  a {
     text-decoration: none;
     color: #1e5b96;
     opacity: 1;
@@ -20,7 +20,7 @@ const Section = styled.section`
   a:hover {
     opacity: 0.8;
     transition: 0.2s;
-  } */
+  }
 
   a:visited {
     color: #1e5b96;
@@ -37,14 +37,6 @@ const Section = styled.section`
       margin-block-end: 0;
       min-height: 3.2rem;
     }
-
-    /* .content {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-    } */
   }
 `;
 
