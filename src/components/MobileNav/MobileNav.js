@@ -15,6 +15,16 @@ const MobileNav = () => {
           <ul>
             <li>
               <NavLink
+                exact
+                to="/"
+                onClick={toggleNav}
+                activeClassName="selected"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to="/About"
                 onClick={toggleNav}
                 activeClassName="selected"
