@@ -11,6 +11,7 @@ import About from "./containers/About/About";
 import Projects from "./containers/Projects/Projects";
 import CV from "./containers/CV/CV";
 import Contact from "./containers/Contact/Contact";
+import Home from "./containers/Home/Home";
 import Error from "./containers/Error/Error";
 import Footer from "./components/Footer/Footer";
 import * as SC from "./App.style";
@@ -37,7 +38,7 @@ const App = ({ location }) => {
                 <Route path="/Projects" component={Projects} exact />
                 <Route path="/CV" component={CV} exact />
                 <Route path="/Contact" component={Contact} exact />
-                <Route path="/" component={About} exact />
+                <Route path="/" component={Home} exact />
                 <Route component={Error} />
               </Switch>
             </CSSTransition>

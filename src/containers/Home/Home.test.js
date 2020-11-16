@@ -1,14 +1,14 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
-import About from "./About";
+import Home from "./Home";
 
-test("About component renders", () => {
+test("Home component renders", () => {
   const { getByText } = render(
     <BrowserRouter>
-      <About />
+      <Home />
     </BrowserRouter>
   );
-  const linkElement = getByText(/More about me/i);
+  const linkElement = getByText(/Hi, I’m Kin/i);
   expect(linkElement).toBeInTheDocument();
 });

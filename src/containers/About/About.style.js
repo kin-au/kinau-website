@@ -69,11 +69,6 @@ const Section = styled.section`
     height: 100%;
     overflow: auto;
 
-    h3 {
-      margin-block-end: 0;
-      min-height: 3.2rem;
-    }
-
     .contentWrapper {
       position: absolute;
       top: 0;
