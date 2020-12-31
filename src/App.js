@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 
-import React from "react";
-import { Route, Switch, withRouter } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, useLocation, Switch, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Header from "./components/Header/Header";
 import ContactInfo from "./components/ContactInfo/ContactInfo";
@@ -16,34 +16,45 @@ import Error from "./containers/Error/Error";
 import Footer from "./components/Footer/Footer";
 import * as SC from "./App.style";
 
+function Scroll(props) {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return props.children;
+}
+const ScrollToTop = withRouter(Scroll);
+
 const App = ({ location }) => {
   return (
     <>
       <SC.App>
-        <div className="leftColumn">
-          <Header />
-          <ContactInfo />
-        </div>
-        <div className="rightColumn">
-          <MobileNav />
-          <Navbar />
-          <TransitionGroup component={null}>
-            <CSSTransition
-              key={location.key}
-              timeout={{ enter: 300 }}
-              classNames="fade"
-            >
-              <Switch location={location}>
-                <Route path="/About" component={About} exact />
-                <Route path="/Projects" component={Projects} exact />
-                <Route path="/CV" component={CV} exact />
-                <Route path="/Contact" component={Contact} exact />
-                <Route path="/" component={Home} exact />
-                <Route component={Error} />
-              </Switch>
-            </CSSTransition>
-          </TransitionGroup>
-        </div>
+        <ScrollToTop>
+          <div className="leftColumn">
+            <Header />
+            <ContactInfo />
+          </div>
+          <div className="rightColumn">
+            <MobileNav />
+            <Navbar />
+            <TransitionGroup component={null}>
+              <CSSTransition
+                key={location.key}
+                timeout={{ enter: 300 }}
+                classNames="fade"
+              >
+                <Switch location={location}>
+                  <Route path="/About" component={About} exact />
+                  <Route path="/Projects" component={Projects} exact />
+                  <Route path="/CV" component={CV} exact />
+                  <Route path="/Contact" component={Contact} exact />
+                  <Route path="/" component={Home} exact />
+                  <Route component={Error} />
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          </div>
+        </ScrollToTop>
       </SC.App>
       <Footer />
     </>
