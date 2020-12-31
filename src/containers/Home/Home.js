@@ -6,7 +6,7 @@ const Home = () => {
     <SC.Section>
       <div className="contentWrapper">
         <h3>Hi, I’m Kin, thanks for checking out my website!</h3>
-        <p>As you’ve probably guessed, I am a software engineer.</p>
+        <p>As you’ve probably guessed, I'm a software engineer.</p>
         <p>
           I love building things that deliver{" "}
           <strong>pragmatic solutions</strong> to real-world problems, always
@@ -19,7 +19,7 @@ const Home = () => {
           I enjoy being in a positive environment that promotes autonomy, taking
           on <strong>responsibility</strong> and <strong>ownership</strong> of
           work. I am a driven and self-motivated individual, both personally and
-          professionally. I hate turning down a challenge!
+          professionally – I hate turning down a challenge!
         </p>
         <p>
           Some of the things I value, in no particular order: team

@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import * as SC from "./Header.style";
-import Navbar from "../Navbar/Navbar";
-import MobileNav from "../MobileNav/MobileNav";
-import ContactInfo from "../ContactInfo/ContactInfo";
 
 const Header = () => {
   return (
