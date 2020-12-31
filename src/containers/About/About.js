@@ -67,7 +67,7 @@ const About = () => {
           </details>
           <details open>
             <summary>Recent adventures and new learnings</summary>
-            <p>I'm not really the type to sit still! Recently I have:</p>
+            <p>I'm not really the type to stand still! Recently I have:</p>
             <ul>
               <li>
                 Continued to mentor (remotely) at{" "}
@@ -77,6 +77,32 @@ const About = () => {
                   href="https://codebar.io"
                 >
                   Codebar.io
+                </a>
+              </li>
+              <li>
+                Tried out different tech and tools like{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://vuejs.org"
+                >
+                  Vue.js
+                </a>
+                ,{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://emberjs.com"
+                >
+                  Ember.js
+                </a>{" "}
+                and{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.typescriptlang.org"
+                >
+                  TypeScript
                 </a>
               </li>
               <li>
@@ -100,24 +126,6 @@ const About = () => {
                   Harvard's CS50x Puzzle Day 2020
                 </a>
                 , being 1 of only 299 teams to successfully solve all 8 puzzles
-              </li>
-              <li>
-                Tried out different tech and tools like{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://vuejs.org"
-                >
-                  Vue.js
-                </a>{" "}
-                and{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://emberjs.com"
-                >
-                  Ember.js
-                </a>
               </li>
             </ul>
           </details>
