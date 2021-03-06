@@ -95,14 +95,22 @@ const About = () => {
                   href="https://emberjs.com"
                 >
                   Ember.js
-                </a>{" "}
-                and{" "}
+                </a>
+                ,{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.typescriptlang.org"
                 >
                   TypeScript
+                </a>{" "}
+                and{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://tailwindcss.com"
+                >
+                  Tailwind
                 </a>
               </li>
               <li>
@@ -115,17 +123,6 @@ const About = () => {
                   Arduino
                 </a>
                 , an electronics platform for hardware prototyping
-              </li>
-              <li>
-                Completed{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://cs50.harvard.edu/x/2020/puzzles"
-                >
-                  Harvard's CS50x Puzzle Day 2020
-                </a>
-                , being 1 of only 299 teams to successfully solve all 8 puzzles
               </li>
             </ul>
           </details>
