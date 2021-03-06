@@ -9,6 +9,7 @@ test("CV component renders", () => {
       <CV />
     </BrowserRouter>
   );
-  const linkElement = getByText(/CV/i);
+  // const linkElement = getByText(/CV/i);
+  const linkElement = getByText(/Please get in touch/i);
   expect(linkElement).toBeInTheDocument();
 });
