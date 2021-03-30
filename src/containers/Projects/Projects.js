@@ -31,23 +31,13 @@ const Projects = () => {
                 Airtable database
               </p>
               <p>
-                <span className="subheading">Demo: </span>
-                <a
-                  href="https://gateway2heritage.netlify.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  gateway2heritage.netlify.com
-                </a>
-              </p>
-              <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="https://github.com/fac18/t4b-g2h"
+                  href="https://github.com/kin-au/t4b-g2h"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  github.com/fac18/t4b-g2h
+                  github.com/kin-au/t4b-g2h
                 </a>
               </p>
             </div>
@@ -90,23 +80,13 @@ const Projects = () => {
                 PostgreSQL, React.js, Google Maps API, Styled Components
               </p>
               <p>
-                <span className="subheading">Demo: </span>
-                <a
-                  href="https://wearehumble.herokuapp.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  wearehumble.herokuapp.com
-                </a>
-              </p>
-              <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="https://github.com/fac18/humble"
+                  href="https://github.com/kin-au/humble"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  github.com/fac18/humble
+                  github.com/kin-au/humble
                 </a>
               </p>
             </div>
@@ -154,11 +134,11 @@ const Projects = () => {
               <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="https://github.com/fac18/nikkin-react-game"
+                  href="https://github.com/kin-au/nikkin-react-game"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  github.com/fac18/nikkin-react-game
+                  github.com/kin-au/nikkin-react-game
                 </a>
               </p>
             </div>
@@ -195,23 +175,13 @@ const Projects = () => {
                 Handlebars (MVC Framework) PostgreSQL
               </p>
               <p>
-                <span className="subheading">Demo: </span>
-                <a
-                  href="https://fac-week8-project.herokuapp.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  fac-week8-project.herokuapp.com
-                </a>
-              </p>
-              <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="https://github.com/fac18/week8-pbok"
+                  href="https://github.com/kin-au/week8-pbok"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  github.com/fac18/week8-pbok
+                  github.com/kin-au/week8-pbok
                 </a>
               </p>
             </div>
@@ -251,23 +221,13 @@ const Projects = () => {
                 CSS
               </p>
               <p>
-                <span className="subheading">Demo: </span>
-                <a
-                  href="https://dark-server-api.herokuapp.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  dark-server-api.herokuapp.com
-                </a>
-              </p>
-              <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="https://github.com/fac18/week-5-DARK-server-Api"
+                  href="https://github.com/kin-au/week-5-DARK-server-Api"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  github.com/fac18/week-5-DARK-server-Api
+                  github.com/kin-au/week-5-DARK-server-Api
                 </a>
               </p>
             </div>
@@ -297,23 +257,13 @@ const Projects = () => {
                 CSS
               </p>
               <p>
-                <span className="subheading">Demo: </span>
-                <a
-                  href="https://wtf-wheres-the-food.herokuapp.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  wtf-wheres-the-food.herokuapp.com
-                </a>
-              </p>
-              <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="https://github.com/fac18/week4-cikp-autocomplete"
+                  href="https://github.com/kin-au/week4-cikp-autocomplete"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  github.com/fac18/week4-cikp-autocomplete
+                  github.com/kin-au/week4-cikp-autocomplete
                 </a>
               </p>
             </div>
@@ -348,11 +298,11 @@ const Projects = () => {
               <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="https://github.com/fac18/week3-cikp-gifsthesia"
+                  href="https://github.com/kin-au/week3-cikp-gifsthesia"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  github.com/fac18/week3-cikp-gifsthesia
+                  github.com/kin-au/week3-cikp-gifsthesia
                 </a>
               </p>
             </div>
@@ -386,23 +336,13 @@ const Projects = () => {
                 JavaScript
               </p>
               <p>
-                <span className="subheading">Demo: </span>
-                <a
-                  href="https://fac18.github.io/week2-ajnp-sbs-todolist"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  fac18.github.io/week2-ajnp-sbs-todolist
-                </a>
-              </p>
-              <p>
                 <span className="subheading">Code: </span>
                 <a
-                  href="https://github.com/fac18/week2-ajnp-sbs-todolist"
+                  href="https://github.com/kin-au/week2-ajnp-sbs-todolist"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  github.com/fac18/week2-ajnp-sbs-todolist
+                  github.com/kin-au/week2-ajnp-sbs-todolist
                 </a>
               </p>
             </div>
