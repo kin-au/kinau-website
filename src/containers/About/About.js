@@ -7,7 +7,7 @@ const About = () => {
       <div className="contentWrapper">
         <h2>More about me</h2>
         <div className="detailsContainer">
-          <details open>
+          <details>
             <summary>Timeline</summary>
             <h4>2018</h4>
             <p>
@@ -65,7 +65,7 @@ const About = () => {
               </a>
             </p>
           </details>
-          <details open>
+          <details>
             <summary>Recent adventures and new learnings</summary>
             <p>I'm not really the type to stand still! Recently I have:</p>
             <ul>
@@ -81,22 +81,6 @@ const About = () => {
               </li>
               <li>
                 Tried out different tech and tools like{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://vuejs.org"
-                >
-                  Vue.js
-                </a>
-                ,{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://emberjs.com"
-                >
-                  Ember.js
-                </a>
-                ,{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

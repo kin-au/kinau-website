@@ -1,5 +1,7 @@
 import React from "react";
 import * as SC from "./Projects.style";
+import manamrecipes from "../../assets/projects/manamrecipes.gif";
+import popsiclesticks from "../../assets/projects/popsiclesticks.gif";
 import t4b from "../../assets/projects/g2h.gif";
 import humble from "../../assets/projects/humble.gif";
 import keeponflyin from "../../assets/projects/keeponflyin.gif";
@@ -15,6 +17,76 @@ const Projects = () => {
       <div className="contentWrapper">
         <h2>Recent projects</h2>
         <div className="projectsContainer">
+          <article>
+            <div className="projectHeadline">
+              <h3 className="projectName">Manam Recipes</h3>
+              <div className="imageMobile">
+                <img src={manamrecipes} alt="manam recipes" />
+              </div>
+              <p>
+                <span className="subheading">Stack/tools: </span>React,
+                TypeScript, Material-UI, Styled Components
+              </p>
+              <p>
+                <span className="subheading">Code: </span>
+                <a
+                  href="https://github.com/kin-au/manam-recipes"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  github.com/kin-au/manam-recipes
+                </a>
+              </p>
+            </div>
+            <div className="imageDesktop">
+              <img src={manamrecipes} alt="manam recipes" />
+            </div>
+            <ul>
+              <li>A collection of simple, delicious, no-nonsense recipes</li>
+              <li>
+                Dynamic filtering by cuisine and type, sorting by ingredients
+                and cooking time
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <div className="projectHeadline">
+              <h3 className="projectName">Popsicle Sticks</h3>
+              <div className="imageMobile">
+                <img src={popsiclesticks} alt="popsicle sticks" />
+              </div>
+              <p>
+                <span className="subheading">Stack/tools: </span>React,
+                TypeScript, Tailwind CSS
+              </p>
+              <p>
+                <span className="subheading">Code: </span>
+                <a
+                  href="https://github.com/kin-au/popsicle-sticks"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  github.com/kin-au/popsicle-sticks
+                </a>
+              </p>
+            </div>
+            <div className="imageDesktop">
+              <img src={popsiclesticks} alt="popsicle sticks" />
+            </div>
+            <ul>
+              <li>
+                For tech teams, a digital alternative to physically picking a
+                name out of a hat (or popsicle sticks from a pot)
+              </li>
+              <li>
+                Uses the GitHub API to find users by organisation or
+                individually
+              </li>
+              <li>Custom theme switching with Tailwind</li>
+            </ul>
+          </article>
+
           <article>
             <div className="projectHeadline">
               <h3 className="projectName">Gateway 2 Heritage</h3>
@@ -119,7 +191,7 @@ const Projects = () => {
             </ul>
           </article>
 
-          <article>
+          <article className="hidden">
             <div className="projectHeadline">
               <h3 className="projectName">Keep on Flyin’</h3>
               <div className="imageMobile">
@@ -161,7 +233,7 @@ const Projects = () => {
             </ul>
           </article>
 
-          <article>
+          <article className="hidden">
             <div className="projectHeadline">
               <h3 className="projectName">Bibliotech</h3>
               <div className="imageMobile">
@@ -207,7 +279,7 @@ const Projects = () => {
             </ul>
           </article>
 
-          <article>
+          <article className="hidden">
             <div className="projectHeadline">
               <h3 className="projectName">Should I Go Out Today?</h3>
               <div className="imageMobile">
@@ -246,7 +318,7 @@ const Projects = () => {
             </ul>
           </article>
 
-          <article>
+          <article className="hidden">
             <div className="projectHeadline">
               <h3 className="projectName">WTF: Where’s The Food</h3>
               <div className="imageMobile">
@@ -285,7 +357,7 @@ const Projects = () => {
             </ul>
           </article>
 
-          <article>
+          <article className="hidden">
             <div className="projectHeadline">
               <h3 className="projectName">Gifsthesia</h3>
               <div className="imageMobile">
@@ -322,7 +394,7 @@ const Projects = () => {
             </ul>
           </article>
 
-          <article>
+          <article className="hidden">
             <div className="projectHeadline">
               <h3 className="projectName">Bear Tings To Do</h3>
               <div className="imageMobile">

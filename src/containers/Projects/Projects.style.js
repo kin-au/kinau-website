@@ -13,6 +13,10 @@ const Projects = styled.section`
     border-radius: 6px;
   }
 
+  .hidden {
+    display: none;
+  }
+
   img {
     max-width: 100%;
     max-height: 100%;
@@ -65,8 +69,10 @@ const Projects = styled.section`
   }
 
   .imageMobile {
-    display: block;
-    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* width: 100%; */
   }
 
   .imageDesktop {

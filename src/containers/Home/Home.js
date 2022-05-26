@@ -16,10 +16,10 @@ const Home = () => {
           proficiency in working across the full project life-cycle.
         </p>
         <p>
-          I enjoy being in a positive environment that promotes autonomy, taking
-          on <strong>responsibility</strong> and <strong>ownership</strong> of
-          work. I am a driven and self-motivated individual, both personally and
-          professionally – I hate turning down a challenge!
+          I enjoy being in a positive environment that promotes{" "}
+          <strong>autonomy</strong>, taking on <strong>responsibility</strong>{" "}
+          and ownership of work. I am a driven and self-motivated individual,
+          both personally and professionally – I hate turning down a challenge!
         </p>
         <p>
           Some of the things I value, in no particular order: team
