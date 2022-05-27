@@ -9,6 +9,6 @@ test("Header component renders", () => {
       <Header />
     </BrowserRouter>
   );
-  const linkElement = getByText(/Full Stack Developer/i);
+  const linkElement = getByText(/Web Developer/i);
   expect(linkElement).toBeInTheDocument();
 });
