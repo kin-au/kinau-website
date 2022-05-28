@@ -1,13 +1,11 @@
 import styled from "styled-components";
 
 const Header = styled.header`
-  padding-right: 2rem;
-  text-align: right;
+  padding-left: 2rem;
   border-bottom: 1.1rem solid #9dc6ec;
 
   h1 {
-    margin-block-start: 1rem;
-    margin-block-end: 0;
+    padding-top: 1rem;
     font-family: "Raleway", sans-serif;
     font-weight: 900;
     letter-spacing: 0.4rem;
@@ -35,12 +33,12 @@ const Header = styled.header`
   }
 
   @media (min-width: 768px) {
-    padding-right: 0;
+    padding-left: 0.3rem;
     border-bottom: 1.5rem solid #9dc6ec;
 
     h1 {
-      margin-block-start: 3rem;
-      margin-block-end: 1rem;
+      padding-top: 3rem;
+      margin-bottom: 1rem;
       font-size: 6rem;
     }
 

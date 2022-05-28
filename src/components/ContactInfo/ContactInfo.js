@@ -9,8 +9,8 @@ const ContactInfo = () => {
     <SC.ContactList>
       <li>
         <a href="mailto:hello@kinau.co.uk">
-          hello@kinau.co.uk
           <img src={email} alt="email"></img>
+          hello@kinau.co.uk
         </a>
       </li>
       <li>
@@ -19,8 +19,8 @@ const ContactInfo = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          github.com/kin-au
           <img src={github} alt="github"></img>
+          github.com/kin-au
         </a>
       </li>
       <li>
@@ -29,8 +29,8 @@ const ContactInfo = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          linkedin.com/in/kin-au
           <img src={linkedin} alt="linkedin"></img>
+          linkedin.com/in/kin-au
         </a>
       </li>
     </SC.ContactList>

@@ -72,7 +72,6 @@ const Projects = styled.section`
     display: flex;
     align-content: center;
     justify-content: center;
-    /* width: 100%; */
   }
 
   .imageDesktop {
@@ -82,12 +81,9 @@ const Projects = styled.section`
   @media (min-width: 768px) {
     margin-top: 1.65rem;
     margin-bottom: 1.5rem;
-    position: relative;
     height: 100%;
-    overflow: auto;
 
     .contentWrapper {
-      position: absolute;
       top: 0;
       bottom: 0;
       right: 0;
@@ -117,6 +113,7 @@ const Projects = styled.section`
     .imageDesktop {
       display: inline-block;
       width: 50%;
+      text-align: center;
     }
   }
 `;

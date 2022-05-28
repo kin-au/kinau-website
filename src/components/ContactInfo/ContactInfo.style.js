@@ -25,7 +25,6 @@ const ContactList = styled.ul`
   a {
     display: inline-block;
     width: 100%;
-    text-align: right;
     text-decoration: none;
     color: #1e5b96;
   }
@@ -38,7 +37,7 @@ const ContactList = styled.ul`
     vertical-align: middle;
     height: 4rem;
     width: 4rem;
-    padding: 0.3rem 0 0.3rem 0.8rem;
+    padding: 0.5rem 0.8rem 0.5rem 0;
   }
 `;
 

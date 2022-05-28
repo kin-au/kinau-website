@@ -65,12 +65,9 @@ const Section = styled.section`
   @media (min-width: 768px) {
     margin-top: 1.65rem;
     margin-bottom: 1.5rem;
-    position: relative;
     height: 100%;
-    overflow: auto;
 
     .contentWrapper {
-      position: absolute;
       top: 0;
       bottom: 0;
       right: 0;
