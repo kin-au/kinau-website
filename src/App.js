@@ -31,12 +31,16 @@ const App = ({ location }) => {
       <SC.App>
         <ScrollToTop>
           <div className="leftColumn">
-            <Header />
-            <ContactInfo />
+            <div className="sticky">
+              <Header />
+              <ContactInfo />
+            </div>
           </div>
           <div className="rightColumn">
-            <MobileNav />
-            <Navbar />
+            <div className="sticky">
+              <MobileNav />
+              <Navbar />
+            </div>
             <TransitionGroup component={null}>
               <CSSTransition
                 key={location.key}

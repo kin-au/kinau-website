@@ -18,13 +18,19 @@ const App = styled.div`
 
   @media (min-width: 768px) {
     display: flex;
+    margin-bottom: 1rem;
+
+    .sticky {
+      position: sticky;
+      top: 0;
+      background-color: white;
+    }
 
     .leftColumn {
       width: 100%;
       min-width: 400px;
       max-width: 35%;
       flex: 1;
-      padding-bottom: calc(100vh - 533px);
     }
 
     .rightColumn {
